@@ -334,5 +334,20 @@
     6708
    ]
   }
+ },
+ {
+  "time": 1790651517731,
+  "duration": 21905.412,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "p",
+    10907
+   ]
+  }
  }
 ]
