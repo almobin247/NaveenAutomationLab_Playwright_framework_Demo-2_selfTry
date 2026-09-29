@@ -409,5 +409,80 @@
     7306
    ]
   }
+ },
+ {
+  "time": 1790686349630,
+  "duration": 14984.027,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "p",
+    4647
+   ]
+  }
+ },
+ {
+  "time": 1790686787290,
+  "duration": 8550.84,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "p",
+    4947
+   ]
+  }
+ },
+ {
+  "time": 1790686823396,
+  "duration": 6503.5830000000005,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "p",
+    4362
+   ]
+  }
+ },
+ {
+  "time": 1790687073333,
+  "duration": 1114.757,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "f",
+    6
+   ]
+  }
+ },
+ {
+  "time": 1790687103461,
+  "duration": 1012.826,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "f",
+    3
+   ]
+  }
  }
 ]
