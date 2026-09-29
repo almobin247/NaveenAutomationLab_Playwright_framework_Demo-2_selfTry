@@ -36,3 +36,8 @@ npm-debug.log*
 
 # misc
 *.tgz
+
+
+# to resolve mac 12 issue
+package-lock.json
+package.json
