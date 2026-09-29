@@ -1,7 +1,8 @@
 
-import { test, expect } from "../../src/fixtures/pageFixtures2";
+import { test, expect } from "../../src/fixtures/pageFixtures";
 import { CSVHelper } from "../../src/utilities/CsvUtils";
 import { JsonHelper } from  "../../src/utilities/JsonHelper";
+import { meta, log, testData } from 'reporting-labs';
 
 
 
@@ -11,8 +12,14 @@ test.beforeEach( async ({ loginPage, page })=> {
 }) 
 
 test ('login functionality test', async({ loginPage, homePage })=> {
-    await loginPage.doLogin(process.env.USERNAME, process.env.PASSWORD);
-    expect(await homePage.homePageTitle()).toBe('My Account');
+    meta({ priority: 'p2', severity: 'minor', owner: 'Mob', story: 'US101', epic: 'ep349', feature: 'f22', issue: 'bug2' })
+    
+    await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
+
+    let pageTitle = await homePage.homePageTitle();
+
+    await log("Home Page Title : ", pageTitle)
+    expect(pageTitle).toBe('My Account');
 });
 
 
@@ -25,6 +32,10 @@ test ('Landing to Reg page test', async ({ loginPage }) => {
 let csvData = CSVHelper.readCsv('src/testdata/logindata.csv');
 for(let row of csvData) {
     test (`login functionality test for incorrect data from csv - ${row.username}`, async({ loginPage, homePage })=> {
+        meta({ priority: 'p2', severity: 'minor', owner: 'Mob1', story: 'US101', epic: 'ep349', feature: 'f22', issue: 'bug2' })
+        testData(csvData, 'Invalid LoginData');
+    
+
         await loginPage.doLogin(row.username, row.password);
         expect(await loginPage.isInvalidLoginErrorDisplayed()).toBeTruthy();
     });

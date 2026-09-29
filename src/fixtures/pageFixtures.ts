@@ -20,6 +20,7 @@ let test = baseTest.extend<pageFixtures>({
 
    basePage: async({ page}, use)=> {
         let basePage = new BasePage(page);
+        // let loginPage = new LoginPage(page);
         await use(basePage);
     },
 

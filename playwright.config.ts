@@ -1,5 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
+ import reportingLabs from './reporting-labs.config';
 
 //npm install dotenv
 //ENV=qa npx playwright test
@@ -18,17 +19,38 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 4 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: process.env.CI
+  ? [
+    ['list'],
+    ['html', { outputFolder: "reports/html-report", open: "never" }],
+    ["allure-playwright", {
+      outputFolder: "allure-results",
+      suiteTitle: true,
+    }],
+    ['reporting-labs', reportingLabs]
+  
+  ]
+  :
+  [
+    ['list'],
+    ['html', { outputFolder: "reports/html-report", open: "never" }],
+    ["allure-playwright", {
+      outputFolder: "allure-results",
+      suiteTitle: true,
+    }],
+    ['reporting-labs', reportingLabs]
+  
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: process.env.BASE_URL,
-
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: false,
+   // headless: !process.env.CI ? false : true,
+   headless: true,
+   screenshot: 'on',
+   video: 'on',
   },
 
   /* Configure projects for major browsers */
