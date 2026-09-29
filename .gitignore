@@ -5,7 +5,12 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-/playwright/.auth
+/playwright/.auth/
+/reports/
+/reporting-labs/
+/allure-report/
+/allure-results/
+reporting-labs.history.json
 
 # env files (credentials)
 config/.env.*
