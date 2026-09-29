@@ -1,0 +1,323 @@
+[
+ {
+  "time": 1790641000229,
+  "duration": 45499.935000000005,
+  "passed": 22,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 24,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "p",
+    1422
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::create user api test": [
+    "f",
+    1241
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::update user api test": [
+    "p",
+    67
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::delete user api test": [
+    "f",
+    424
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › GET API - get all user": [
+    "p",
+    1698
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › POST API - create a user": [
+    "p",
+    483
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › PUT API - update a user": [
+    "p",
+    767
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › DELETE API - delete a user": [
+    "p",
+    826
+   ],
+   "chromium::tests/basic/example.spec.ts::has title": [
+    "p",
+    5676
+   ],
+   "chromium::tests/basic/example.spec.ts::get started link": [
+    "p",
+    7358
+   ],
+   "chromium::tests/basic/homePage.spec.ts::homePage Tile Test": [
+    "p",
+    5392
+   ],
+   "chromium::tests/basic/homePage.spec.ts::homePage Headers Test": [
+    "p",
+    3384
+   ],
+   "chromium::tests/basic/loginPage.spec.ts::login functionality test": [
+    "p",
+    3793
+   ],
+   "chromium::tests/basic/loginPage.spec.ts::Landing to Reg page test": [
+    "p",
+    2862
+   ],
+   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Tile Test": [
+    "p",
+    3501
+   ],
+   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Headers Test": [
+    "p",
+    3519
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test": [
+    "p",
+    3458
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "p",
+    2979
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid@xyx.com": [
+    "p",
+    3218
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - ": [
+    "p",
+    3110
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid1@xyx.com": [
+    "p",
+    3317
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc": [
+    "p",
+    3222
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc1": [
+    "p",
+    3295
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc2": [
+    "p",
+    2911
+   ]
+  }
+ },
+ {
+  "time": 1790641642979,
+  "duration": 37458.473,
+  "passed": 22,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 24,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "p",
+    1456
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::create user api test": [
+    "f",
+    1391
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::update user api test": [
+    "p",
+    14
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::delete user api test": [
+    "f",
+    575
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › GET API - get all user": [
+    "p",
+    582
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › POST API - create a user": [
+    "p",
+    492
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › PUT API - update a user": [
+    "p",
+    432
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › DELETE API - delete a user": [
+    "p",
+    393
+   ],
+   "chromium::tests/basic/example.spec.ts::has title": [
+    "p",
+    2221
+   ],
+   "chromium::tests/basic/example.spec.ts::get started link": [
+    "p",
+    3656
+   ],
+   "chromium::tests/basic/homePage.spec.ts::homePage Tile Test": [
+    "p",
+    3964
+   ],
+   "chromium::tests/basic/homePage.spec.ts::homePage Headers Test": [
+    "p",
+    3929
+   ],
+   "chromium::tests/basic/loginPage.spec.ts::login functionality test": [
+    "p",
+    3766
+   ],
+   "chromium::tests/basic/loginPage.spec.ts::Landing to Reg page test": [
+    "p",
+    3803
+   ],
+   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Tile Test": [
+    "p",
+    3932
+   ],
+   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Headers Test": [
+    "p",
+    3336
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test": [
+    "p",
+    3585
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "p",
+    3555
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid@xyx.com": [
+    "p",
+    3492
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - ": [
+    "p",
+    3515
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid1@xyx.com": [
+    "p",
+    3381
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc": [
+    "p",
+    3152
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc1": [
+    "p",
+    3202
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc2": [
+    "p",
+    3193
+   ]
+  }
+ },
+ {
+  "time": 1790641888222,
+  "duration": 46359.308000000005,
+  "passed": 22,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 24,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "p",
+    1250
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::create user api test": [
+    "f",
+    1290
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::update user api test": [
+    "p",
+    24
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::delete user api test": [
+    "f",
+    595
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › GET API - get all user": [
+    "p",
+    706
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › POST API - create a user": [
+    "p",
+    749
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › PUT API - update a user": [
+    "p",
+    980
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › DELETE API - delete a user": [
+    "p",
+    584
+   ],
+   "chromium::tests/basic/example.spec.ts::has title": [
+    "p",
+    7082
+   ],
+   "chromium::tests/basic/example.spec.ts::get started link": [
+    "p",
+    4513
+   ],
+   "chromium::tests/basic/homePage.spec.ts::homePage Tile Test": [
+    "p",
+    6187
+   ],
+   "chromium::tests/basic/homePage.spec.ts::homePage Headers Test": [
+    "p",
+    5697
+   ],
+   "chromium::tests/basic/loginPage.spec.ts::login functionality test": [
+    "p",
+    5678
+   ],
+   "chromium::tests/basic/loginPage.spec.ts::Landing to Reg page test": [
+    "p",
+    4777
+   ],
+   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Tile Test": [
+    "p",
+    4367
+   ],
+   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Headers Test": [
+    "p",
+    4994
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test": [
+    "p",
+    4219
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
+    "p",
+    4186
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid@xyx.com": [
+    "p",
+    4578
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - ": [
+    "p",
+    4131
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid1@xyx.com": [
+    "p",
+    3693
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc": [
+    "p",
+    3562
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc1": [
+    "p",
+    3522
+   ],
+   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc2": [
+    "p",
+    3612
+   ]
+  }
+ }
+]
