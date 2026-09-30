@@ -11,7 +11,7 @@ test.beforeEach( async ({ loginPage, page })=> {
    //await page.goto('opencart/index.php?route=account/login')
 }) 
 
-test ('login functionality test', async({ loginPage, homePage })=> {
+test ('@regression login functionality test', async({ loginPage, homePage })=> {
     meta({ priority: 'p2', severity: 'minor', owner: 'Mob', story: 'US101', epic: 'ep349', feature: 'f22', issue: 'bug2' })
     
     await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
@@ -23,7 +23,7 @@ test ('login functionality test', async({ loginPage, homePage })=> {
 });
 
 
-test ('Landing to Reg page test', async ({ loginPage }) => {
+test ('@smoke Landing to Reg page test', async ({ loginPage }) => {
     await loginPage.navigateToRegPage();
 
 });
@@ -31,7 +31,7 @@ test ('Landing to Reg page test', async ({ loginPage }) => {
 
 let csvData = CSVHelper.readCsv('src/testdata/logindata.csv');
 for(let row of csvData) {
-    test (`login functionality test for incorrect data from csv - ${row.username}`, async({ loginPage, homePage })=> {
+    test (`@ regression login functionality test for incorrect data from csv - ${row.username}`, async({ loginPage, homePage })=> {
         meta({ priority: 'p2', severity: 'minor', owner: 'Mob1', story: 'US101', epic: 'ep349', feature: 'f22', issue: 'bug2' })
         testData(csvData, 'Invalid LoginData');
     
@@ -44,7 +44,7 @@ for(let row of csvData) {
 
 let jsonData = JsonHelper.readJson('src/testdata/logindata.json');
 for(let row of jsonData) {
-    test (`login functionality test for incorrect data from json - ${row.username}`, async({ loginPage, homePage })=> {
+    test (`@ regressionlogin functionality test for incorrect data from json - ${row.username}`, async({ loginPage, homePage })=> {
         await loginPage.doLogin(row.username, row.password);
         expect(await loginPage.isInvalidLoginErrorDisplayed()).toBeTruthy();
     });

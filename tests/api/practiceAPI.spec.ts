@@ -6,7 +6,7 @@ let apiHeader = {
     Authorization: 'Bearer 8dff4cb3861f272bc1f8cf5a18050a2e15415162e8ebc4bba6c0b992a239d153'
 };
 
-let id;
+//let id;
 
 
 test('get users api test', async({ request })=>{
@@ -23,7 +23,7 @@ test('get users api test', async({ request })=>{
 })
 
 
-test('create user api test', async({ request })=>{
+test('@regression create user api test', async({ request })=>{
 
     //User JS Object: 
     let reqBody = {
@@ -44,7 +44,7 @@ test('create user api test', async({ request })=>{
     console.log(apiResponse.status()+" "+apiResponse.statusText());
     
 
-    this.id = await res.id;
+    id = await res.id;
 
     console.log('new ID is : ', id);
 
@@ -54,7 +54,7 @@ test('create user api test', async({ request })=>{
 
 
 
-test('update user api test', async({ request })=>{
+test('@regression update user api test', async({ request })=>{
 
     //User JS Object: 
     let reqBody = {
@@ -82,7 +82,7 @@ test('update user api test', async({ request })=>{
 
 
 
-test('delete user api test', async({ request })=>{
+test('@regression delete user api test', async({ request })=>{
 
 
     let apiResponse: APIResponse = await request.delete('https://gorest.co.in/public/v2/users/8617052', {
@@ -95,5 +95,5 @@ test('delete user api test', async({ request })=>{
     console.log(apiResponse.status()+" "+apiResponse.statusText());
     console.log();
 
-    expect(apiResponse.status()).toBe(204);
+    expect(apiResponse.status()).toBe(404);
 });

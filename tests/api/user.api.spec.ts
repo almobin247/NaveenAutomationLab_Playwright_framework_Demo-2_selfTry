@@ -14,7 +14,7 @@ let userID: number;
 test.describe.serial('running e2e do rest curd apis test', ()=>{
 
     //GET Test:
-    test('GET API - get all user', async({ apiHelper })=>{
+    test('@smoke GET API - get all user', async({ apiHelper })=>{
        let response = await apiHelper.get('/public/v2/users', AUTH_HEADER);
        expect(response.status).toBe(200);
        expect(response.body.length).toBeGreaterThan(0);
@@ -23,7 +23,7 @@ test.describe.serial('running e2e do rest curd apis test', ()=>{
 
     //POST Test:
 
-    test('POST API - create a user', async({ apiHelper })=>{
+    test('@regression @smoke POST API - create a user', async({ apiHelper })=>{
 
          let reqBody = {
  
@@ -45,7 +45,7 @@ test.describe.serial('running e2e do rest curd apis test', ()=>{
 
 
     //PUT Test:
-        test('PUT API - update a user', async({ apiHelper })=>{
+        test('@regression @smoke PUT API - update a user', async({ apiHelper })=>{
 
          let reqBody = {
  
@@ -62,7 +62,7 @@ test.describe.serial('running e2e do rest curd apis test', ()=>{
 
 
     //DELETE Test:
-        test('DELETE API - delete a user', async({ apiHelper })=>{
+        test('@regression @smoke  DELETE API - delete a user', async({ apiHelper })=>{
 
 
        let response = await apiHelper.delete(`/public/v2/users/${userID}`, AUTH_HEADER);
