@@ -1,12 +1,13 @@
 
 import { test, expect, APIResponse } from '@playwright/test';
 
+test.describe.configure({ mode: 'serial' });
 
 let apiHeader = {
     Authorization: 'Bearer 8dff4cb3861f272bc1f8cf5a18050a2e15415162e8ebc4bba6c0b992a239d153'
 };
 
-//let id;
+let id: any;
 
 
 test('get users api test', async({ request })=>{
@@ -63,9 +64,10 @@ test('@regression update user api test', async({ request })=>{
         status: "inactive"
     }
 
-    //let url = `https://gorest.co.in/public/v2/users/`+id.toString();
+    let url = `https://gorest.co.in/public/v2/users/${id}`;
 
     console.log("hello!!!!! " + id);
+    console.log("hello!!!!! " + url);
 
     // let apiResponse: APIResponse = await request.put(url, {
     //     headers: apiHeader,

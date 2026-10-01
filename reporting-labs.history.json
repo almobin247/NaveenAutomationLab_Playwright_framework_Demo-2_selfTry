@@ -1,112 +1,5 @@
 [
  {
-  "time": 1790641000229,
-  "duration": 45499.935000000005,
-  "passed": 22,
-  "failed": 2,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 24,
-  "tests": {
-   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
-    "p",
-    1422
-   ],
-   "chromium::tests/api/practiceAPI.spec.ts::create user api test": [
-    "f",
-    1241
-   ],
-   "chromium::tests/api/practiceAPI.spec.ts::update user api test": [
-    "p",
-    67
-   ],
-   "chromium::tests/api/practiceAPI.spec.ts::delete user api test": [
-    "f",
-    424
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › GET API - get all user": [
-    "p",
-    1698
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › POST API - create a user": [
-    "p",
-    483
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › PUT API - update a user": [
-    "p",
-    767
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › DELETE API - delete a user": [
-    "p",
-    826
-   ],
-   "chromium::tests/basic/example.spec.ts::has title": [
-    "p",
-    5676
-   ],
-   "chromium::tests/basic/example.spec.ts::get started link": [
-    "p",
-    7358
-   ],
-   "chromium::tests/basic/homePage.spec.ts::homePage Tile Test": [
-    "p",
-    5392
-   ],
-   "chromium::tests/basic/homePage.spec.ts::homePage Headers Test": [
-    "p",
-    3384
-   ],
-   "chromium::tests/basic/loginPage.spec.ts::login functionality test": [
-    "p",
-    3793
-   ],
-   "chromium::tests/basic/loginPage.spec.ts::Landing to Reg page test": [
-    "p",
-    2862
-   ],
-   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Tile Test": [
-    "p",
-    3501
-   ],
-   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Headers Test": [
-    "p",
-    3519
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test": [
-    "p",
-    3458
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
-    "p",
-    2979
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid@xyx.com": [
-    "p",
-    3218
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - ": [
-    "p",
-    3110
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid1@xyx.com": [
-    "p",
-    3317
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc": [
-    "p",
-    3222
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc1": [
-    "p",
-    3295
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc2": [
-    "p",
-    2911
-   ]
-  }
- },
- {
   "time": 1790641642979,
   "duration": 37458.473,
   "passed": 22,
@@ -482,6 +375,246 @@
    "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
     "f",
     3
+   ]
+  }
+ },
+ {
+  "time": 1790813357548,
+  "duration": 2294.716,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "p",
+    1236
+   ]
+  }
+ },
+ {
+  "time": 1790813426568,
+  "duration": 2361.6400000000003,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "p",
+    1147
+   ]
+  }
+ },
+ {
+  "time": 1790813446040,
+  "duration": 1880.908,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "p",
+    1093
+   ]
+  }
+ },
+ {
+  "time": 1790813733914,
+  "duration": 1100.899,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression update user api test": [
+    "p",
+    23
+   ]
+  }
+ },
+ {
+  "time": 1790813855669,
+  "duration": 795.7199999999999,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression update user api test": [
+    "p",
+    20
+   ]
+  }
+ },
+ {
+  "time": 1790814815814,
+  "duration": 2443.387,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "p",
+    1107
+   ]
+  }
+ },
+ {
+  "time": 1790814834678,
+  "duration": 866.8500000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression update user api test": [
+    "p",
+    21
+   ]
+  }
+ },
+ {
+  "time": 1790814982968,
+  "duration": 1791.3990000000001,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "f",
+    677
+   ]
+  }
+ },
+ {
+  "time": 1790815040431,
+  "duration": 1294.5089999999998,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "f",
+    469
+   ]
+  }
+ },
+ {
+  "time": 1790815087365,
+  "duration": 2227.942,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "p",
+    1040
+   ]
+  }
+ },
+ {
+  "time": 1790815099504,
+  "duration": 1949.45,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "p",
+    1086
+   ]
+  }
+ },
+ {
+  "time": 1790815111995,
+  "duration": 1999.9489999999998,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "f",
+    1054
+   ]
+  }
+ },
+ {
+  "time": 1790815133520,
+  "duration": 2233.294,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "f",
+    1113
+   ]
+  }
+ },
+ {
+  "time": 1790815160815,
+  "duration": 1512.2390000000003,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "p",
+    668
+   ]
+  }
+ },
+ {
+  "time": 1790815179711,
+  "duration": 1651.416,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "p",
+    584
+   ]
+  }
+ },
+ {
+  "time": 1790815206554,
+  "duration": 976.276,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::@regression update user api test": [
+    "p",
+    26
    ]
   }
  }
