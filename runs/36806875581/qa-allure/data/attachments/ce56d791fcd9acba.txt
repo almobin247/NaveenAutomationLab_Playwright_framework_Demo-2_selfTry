@@ -1,0 +1,2 @@
+app user creds: mp@mp.com - mp123
+home page headers:  [ 'My Account', 'My Orders', 'My Affiliate Account', 'Newsletter' ]
