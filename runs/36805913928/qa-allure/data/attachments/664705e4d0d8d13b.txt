@@ -1,0 +1,9 @@
+{
+  id: 8644789,
+  name: 'Abdullah1_1790821930018',
+  email: 'abdullah_1790821930018@pwautomation.test',
+  gender: 'male',
+  status: 'active'
+}
+201 Created
+new ID is :  8644789
