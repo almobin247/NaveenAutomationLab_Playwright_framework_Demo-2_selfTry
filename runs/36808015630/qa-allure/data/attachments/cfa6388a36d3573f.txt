@@ -1,0 +1,9 @@
+{
+  id: 8644841,
+  name: 'Abdullah1_1790823370997',
+  email: 'abdullah_1790823370997@pwautomation.test',
+  gender: 'male',
+  status: 'active'
+}
+201 Created
+new ID is :  8644841
