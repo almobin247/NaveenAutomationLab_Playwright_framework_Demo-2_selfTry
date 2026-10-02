@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","436","@regression @smoke POST API - create a user","chromium","2026-10-02","passed","2026-10-02","running e2e do rest curd apis test","api/user.api.spec.ts","",""
+"","3432","@smoke homePage Tile Test","chromium","2026-10-02","passed","2026-10-02","","withFixture/homePageFixture.spec.ts","",""
+"","1054","@smoke GET API - get all user","chromium","2026-10-02","passed","2026-10-02","running e2e do rest curd apis test","api/user.api.spec.ts","",""
+"","438","@regression @smoke DELETE API - delete a user","chromium","2026-10-02","passed","2026-10-02","running e2e do rest curd apis test","api/user.api.spec.ts","",""
+"","920","@regression @smoke PUT API - update a user","chromium","2026-10-02","passed","2026-10-02","running e2e do rest curd apis test","api/user.api.spec.ts","",""
+"","3212","@smoke Landing to Reg page test","chromium","2026-10-02","passed","2026-10-02","","withFixture/loginPageFixture.spec.ts","",""
