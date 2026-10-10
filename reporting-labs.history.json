@@ -1,112 +1,5 @@
 [
  {
-  "time": 1790641642979,
-  "duration": 37458.473,
-  "passed": 22,
-  "failed": 2,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 24,
-  "tests": {
-   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
-    "p",
-    1456
-   ],
-   "chromium::tests/api/practiceAPI.spec.ts::create user api test": [
-    "f",
-    1391
-   ],
-   "chromium::tests/api/practiceAPI.spec.ts::update user api test": [
-    "p",
-    14
-   ],
-   "chromium::tests/api/practiceAPI.spec.ts::delete user api test": [
-    "f",
-    575
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › GET API - get all user": [
-    "p",
-    582
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › POST API - create a user": [
-    "p",
-    492
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › PUT API - update a user": [
-    "p",
-    432
-   ],
-   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › DELETE API - delete a user": [
-    "p",
-    393
-   ],
-   "chromium::tests/basic/example.spec.ts::has title": [
-    "p",
-    2221
-   ],
-   "chromium::tests/basic/example.spec.ts::get started link": [
-    "p",
-    3656
-   ],
-   "chromium::tests/basic/homePage.spec.ts::homePage Tile Test": [
-    "p",
-    3964
-   ],
-   "chromium::tests/basic/homePage.spec.ts::homePage Headers Test": [
-    "p",
-    3929
-   ],
-   "chromium::tests/basic/loginPage.spec.ts::login functionality test": [
-    "p",
-    3766
-   ],
-   "chromium::tests/basic/loginPage.spec.ts::Landing to Reg page test": [
-    "p",
-    3803
-   ],
-   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Tile Test": [
-    "p",
-    3932
-   ],
-   "chromium::tests/withFixture/homePageFixture.spec.ts::homePage Headers Test": [
-    "p",
-    3336
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test": [
-    "p",
-    3585
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::Landing to Reg page test": [
-    "p",
-    3555
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid@xyx.com": [
-    "p",
-    3492
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - ": [
-    "p",
-    3515
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from csv - invalid1@xyx.com": [
-    "p",
-    3381
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc": [
-    "p",
-    3152
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc1": [
-    "p",
-    3202
-   ],
-   "chromium::tests/withFixture/loginPageFixture.spec.ts::login functionality test for incorrect data from json - abc2": [
-    "p",
-    3193
-   ]
-  }
- },
- {
   "time": 1790641888222,
   "duration": 46359.308000000005,
   "passed": 22,
@@ -615,6 +508,49 @@
    "chromium::tests/api/practiceAPI.spec.ts::@regression update user api test": [
     "p",
     26
+   ]
+  }
+ },
+ {
+  "time": 1791339142078,
+  "duration": 459.1779999999999,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 8,
+  "total": 8,
+  "tests": {
+   "chromium::tests/api/practiceAPI.spec.ts::get users api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::@regression create user api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::@regression update user api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/practiceAPI.spec.ts::@regression delete user api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › @smoke GET API - get all user": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › @regression @smoke POST API - create a user": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › @regression @smoke PUT API - update a user": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e do rest curd apis test › @regression @smoke  DELETE API - delete a user": [
+    "s",
+    0
    ]
   }
  }
